@@ -29,7 +29,8 @@ class datastore:
             file.close()
             print('Database created in directory, ' + self.filepath)
 
-       # checks if the database exists in the directory. If it does, the database is opened and built, Otherwise, it just creates a new database.
+                                                                               # checks if the database exists in the directory. 
+                                                                               #If it does, the database is opened and built, Otherwise, it just creates a new database.
 
     def checkfilesize(self):
                                                                                  # Checks if database size exceeds 1 GB size.
@@ -42,6 +43,7 @@ class datastore:
             self.filelock.release()
             return False
 
+        
     def verifykey(self, key):                                                    
            
         if type(key) == type(""):                                                  # Checks if key meets required conditions of being a string and capped at 32 chars.
