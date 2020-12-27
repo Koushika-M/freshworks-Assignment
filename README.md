@@ -3,5 +3,5 @@
 
 
 
-After class, the key value datastore is created as 'database.json' in a user-defined address. If no address was provided, it defaults to the current working address. 
+So After instantiating class, the key value datastore is created as 'datastore.json' in a user-defined address. If no address was provided, it defaults to the current working address. 
 This program supports thread safety, single client process at a time and Limited file size(1 gb)
